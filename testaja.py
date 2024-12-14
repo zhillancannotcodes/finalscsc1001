@@ -125,7 +125,12 @@ if __name__ == "__main__":
     print("Original List:")
     linked_list.display()
 
+    #Implement quick sort
     linked_list.quick_sort()
+    print("Sorted List (by Quick Sort):")
+    linked_list.display()
 
-    print("Sorted List (Quick Sort):")
+    #Implement bubble sort
+    linked_list.bubble_sort()
+    print("Sorted list (by Bubble Sort):")
     linked_list.display()
